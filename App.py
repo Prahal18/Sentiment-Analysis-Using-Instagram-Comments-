@@ -16,7 +16,7 @@ ntComments = [] # negative comments list
 nuComments = [] # neutral comments list
 
 # get all comments from the csv file in array format
-comments = np.array(df['text'])
+comments = np.array(df['comment'])
 
 class SentimentAnalysis:
     def __init__(self, comments):
